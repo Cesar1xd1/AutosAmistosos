@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./estilos/estilo.css">
     <script src="./js/validacion.js"></script>
 
-    <title>Vendedores</title>
+    <title>Provedores</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-bottom: 20px; height: 80px; background-color: #7543A9;">

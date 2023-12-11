@@ -40,10 +40,10 @@
             </div>
             <div class="dropdown">
               <button class="btn dropdown-toggle btn-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Vendedores
+                Provedores
               </button>
               <ul class="dropdown-menu bg-ligero">
-                <li><a class="dropdown-item" href="./vendedores.html">Añadir</a></li>
+                <li><a class="dropdown-item" href="./provedores.php">Añadir</a></li>
                 <li><a class="dropdown-item" href="">Eliminar o Modificar</a></li>
                 <li><a class="dropdown-item" href="">Buscar</a></li>
               </ul> 
