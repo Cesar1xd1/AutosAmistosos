@@ -43,7 +43,7 @@
                 Provedores
               </button>
               <ul class="dropdown-menu bg-ligero">
-                <li><a class="dropdown-item" href="./provedores.php">Añadir</a></li>
+                <li><a class="dropdown-item" href="./provedores-alta.php">Añadir</a></li>
                 <li><a class="dropdown-item" href="">Eliminar o Modificar</a></li>
                 <li><a class="dropdown-item" href="">Buscar</a></li>
               </ul> 
