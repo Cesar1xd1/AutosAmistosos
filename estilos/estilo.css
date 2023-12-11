@@ -1,0 +1,138 @@
+ .cajalogin{
+    margin-top: 50px; 
+    background-color: #c6c6ca; 
+    border-radius: 10px;  
+    border: 2px solid gray;
+}
+
+
+
+.botonlogin{
+    font-weight: 700;
+    font-size: 20px; 
+    width: 150px; 
+    height: 50px; 
+    margin-top: 40px;  
+    border-radius:50px; 
+    background-color: #4B1583; 
+    border-style: solid; 
+    color:white ;
+}
+
+.btn-dropdown{
+    color: white; background-color: #8240A7; border: 2px solid #450667; margin-right: 10px;
+}
+
+
+.bg-ligero{
+    background-color: #D5b7ed;
+    border: 1px solid #450667;
+}
+
+.margen{
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 20%;
+    
+    
+}
+.margen-i{
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: lightgray; 
+}
+
+.img-log{
+    filter: drop-shadow(20px 20px 20px black);
+}
+
+
+
+.jover:hover {
+    background-color: #D5b7ed;
+    border-radius: 10px;
+    padding: 5px;
+    text-shadow: 2px 2px 2px #333;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.boton-Añadir{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: #0baf60;
+    position: absolute;
+    top: 30%;
+    left: 870px;
+}
+
+.boton-Cambiar{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: #1F63AE;
+    position: absolute;
+    top: 30%;
+    left: 870px;
+}
+
+.boton-Buscar{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(87, 76, 243);
+    position: absolute;
+    top: 25%;
+    left: 850px;
+}
+
+.boton-Limpiar{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: #70c0ca;
+    position: absolute;
+    top: 40%;
+    left: 870px;
+}
+
+.boton-Limpiar:hover,.boton-Añadir:hover{
+    color: #67089b;
+    cursor: pointer;
+}
+
+td{
+    font-weight: bold !important;
+}
+
+th{
+    font-size: 20px !important;
+    color:#67089b !important;
+}
+
+
+.dial{
+    
+    background-color: #D5b7ed;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #67089b;
+}
+
+.b-dial{
+    margin-left: 10px;
+    margin-top:10px;
+
+    
+}
