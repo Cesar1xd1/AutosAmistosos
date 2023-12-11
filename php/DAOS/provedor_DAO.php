@@ -49,7 +49,7 @@
         }
 
         public function update($id,$nombre,$direccion,$ce,$telefono){
-            $sql = "UPDATE clientes SET nombre = '$nombre', direccion = '$direccion', correo = '$ce', telefono = $telefono WHERE id = $id;";
+            $sql = "UPDATE provedores SET nombre = '$nombre', direccion = '$direccion', correo = '$ce', telefono = $telefono WHERE id = $id;";
             $res = mysqli_query($this->conexion->getConexion(),$sql);
             return $res;
         }

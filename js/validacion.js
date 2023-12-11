@@ -143,6 +143,18 @@ function limpiarCliente(){
 }
 
 
+function limpiarProvedor(){
+  document.getElementById("c_id").value = '';
+  document.getElementById("c_nombre").value = '';
+  document.getElementById("c_correo").value = '';
+  document.getElementById("c_dir").value = '';
+  document.getElementById("c_telefono").value = '';
+
+
+  
+ 
+}
+
 
 
 

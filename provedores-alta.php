@@ -78,7 +78,7 @@
 
 
         <input class="boton-Añadir" name="boton-añadir" type="submit" value="Añadir">
-        <input type="button" class="boton-Limpiar" onclick="limpiarAuto();" value="Limpiar">
+        <input type="button" class="boton-Limpiar" onclick="limpiarProvedor();" value="Limpiar">
 
         
       
