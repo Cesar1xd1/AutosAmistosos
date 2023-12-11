@@ -45,7 +45,7 @@
               <ul class="dropdown-menu bg-ligero">
                 <li><a class="dropdown-item" href="./provedores-alta.php">Añadir</a></li>
                 <li><a class="dropdown-item" href="./provedor-baja.php">Eliminar o Modificar</a></li>
-                <li><a class="dropdown-item" href="">Buscar</a></li>
+                <li><a class="dropdown-item" href="./provedores-consulta.php">Buscar</a></li>
               </ul> 
             </div>
           
