@@ -35,7 +35,7 @@
             Usuario o contraseña Incorrecto!
             </div>';       
         }else{
-            header('location: landing-u.php?user='.$user.'');
+            header('location: landing-u.php?');
             exit();
         }
 

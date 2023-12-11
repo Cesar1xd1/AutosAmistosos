@@ -23,8 +23,7 @@
               </button>
               <ul class="dropdown-menu bg-ligero">
                   <li><a class="dropdown-item" href="./autos-alta.php">Añadir</a></li>
-                  <li><a class="dropdown-item" href="./autos-baja.php">Eliminar</a></li>
-                  <li><a class="dropdown-item" href="">Cambiar</a></li>
+                  <li><a class="dropdown-item" href="./autos-baja.php">Eliminar o Modificar</a></li>
                   <li><a class="dropdown-item" href="./autos-consulta.php">Buscar</a></li>
               </ul>  
             </div>
@@ -65,30 +64,7 @@
           
             </div>
 
-            <?php
-              $user = $_GET['user'];
-              include('php/DAOS/user_DAO.php');
-              $userDAO = new UserDAO();
-              $res =  $userDAO->autenticarU($user);
-
-              $tipo = mysqli_fetch_row($res)[2];
-
-              if($tipo==0){
-                echo '<div class="dropdown" >
-                <button class="btn dropdown-toggle btn-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Usuarios
-                </button>
-                <ul class="dropdown-menu bg-ligero">
-                  <li><a class="dropdown-item" href="">Añadir</a></li>
-                  <li><a class="dropdown-item" href="">Eliminar</a></li>
-                  <li><a class="dropdown-item" href="">Cambiar</a></li>
-                  <li><a class="dropdown-item" href="">Buscar</a></li>
-                </ul> 
             
-              </div>';
-              }
-
-            ?>
            
 
             
@@ -99,7 +75,7 @@
         <label  for="" style="font-weight: bold; font-size: 20px;"><?php
 
   
-        echo strtoupper($_GET['user']);
+       
         
  
 

@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-bottom: 20px; height: 80px; background-color: #7543A9;">
-        <div class="container-fluid" onclick="location.href='./landing-u.html'">
+        <div class="container-fluid" onclick="location.href='./landing-u.php'">
 
             <label class="jover" style="padding: 5px; font-weight: bold; font-size: 20px; font-family: cursive; text-align: center;" class="navbar-brand">Autos <br> Amistosos</label>
 
