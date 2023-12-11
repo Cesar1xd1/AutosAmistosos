@@ -67,7 +67,7 @@ echo " <form action='' class='' method='post' style='margin-left: 25%; justify-c
 
 
 <label class='margen' for=''>Nombre </label>
-<input class='margen-i' type='text' style=' width: 25%;' name='c_nombre' id='c_nombre' value=".$cliente['nombre']." onkeypress='return soloLetras(event);' required >
+<input class='margen-i' type='text' style=' width: 25%;' name='c_nombre' id='c_nombre' value='".$cliente['nombre']."' onkeypress='return soloLetras(event);' required >
 <br>
 
 <label class='margen' for=''>Direccion</label>

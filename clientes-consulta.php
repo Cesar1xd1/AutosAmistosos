@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./estilos/estilo.css">
     <script src="./js/validacion.js"></script>
-
-    <title>Autos</title>
+    <title>Document</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-bottom: 20px; height: 80px; background-color: #7543A9;">
         <div class="container-fluid" onclick="location.href='./landing-u.php'">
-            
-            <label class="jover" style="padding: 5px; font-weight: bold; font-size: 20px; font-family: cursive; text-align: center;" class="navbar-brand" >Autos <br> Amistosos</label> 
-                         
+
+            <label class="jover" style="padding: 5px; font-weight: bold; font-size: 20px; font-family: cursive; text-align: center;" class="navbar-brand">Autos <br> Amistosos</label>
+
+
         </div>
     </nav>
 
     <form action="" class="" method="post" style="margin-left: 25%; justify-content: center;">
-        <label style="margin-left: 12%; font-size: 25px; font-weight:900; font-family: cursive;" for="">ELIMINAR O MODIFICAR CLIENTES</label>
+        <label style="margin-left: 25%; font-size: 25px; font-weight:900; font-family: cursive;" for="">BUSCAR CLIENTES</label>
         <br>
         <br>
         <label class="margen" for="">ID </label>
@@ -29,18 +31,17 @@
     </form>
 
 
-    
-
+ 
     <?php if($_POST){
 
 include('php/DAOS/cliente_DAO.php');
 $id = $_POST['c_id'];
 $clienteDAO = new ClienteDAO();
-$res = $clienteDAO->mostrarClientelike($id);
+$res = $clienteDAO->mostrarClienteLike($id);
 
 echo '<div class="container" style="justify-content: center;">';
 
-echo '<label style="margin-left: 45%; font-size: 25px; font-weight:900; font-family: cursive;"  for="">Clientes</label>';
+echo '<label style="margin-left: 45%; font-size: 25px; font-weight:900; font-family: cursive;"  for="">CLIENTES</label>';
 echo '<br>';
 if(mysqli_num_rows($res)>0){ 
     echo "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css' rel='stylesheet'>
@@ -53,9 +54,9 @@ if(mysqli_num_rows($res)>0){
       <th scope="col">ID</th>
       <th scope="col">Nombre</th>
       <th scope="col">Direccion</th>
-      <th scope="col">Correo Electronico</th>
+      <th scope="col">Correo</th>
       <th scope="col">Telefono</th>
-      <th scope="col">Fecha de Nacimiento/th>
+      <th scope="col">Fecha de Nacimiento</th>
       <th scope="col">Eliminar</th>
       <th scope="col">Modificar</th>
     </tr>
@@ -70,6 +71,7 @@ if(mysqli_num_rows($res)>0){
                 <td>".$fila['correo']."</td>
                 <td>".$fila['telefono']."</td>
                 <td>".$fila['f_nacimiento']."</td>
+
                 <td style='text-align: center;'><button type='button' class='btn btn-danger' onclick='window.modal".$fila['id'].".showModal();'><img src='./images/trash-can.png' height ='30' width='30'/></button></td>
                 <td style='text-align: center;'><form method='post' action='./php/DAOS/procesar-cambio-cliente.php?id=%d'><button type='submit' class='btn btn-primary' href=''><img src='./images/edit.png' height ='30' width='30'/></button></form></td> 
                 
@@ -92,12 +94,9 @@ echo '</div>';
        
     ?>
 
-   
+    
 
 
 
-
-
-   
 </body>
 </html>

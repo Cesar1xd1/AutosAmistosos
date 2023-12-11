@@ -35,7 +35,7 @@
               <ul class="dropdown-menu bg-ligero">
                 <li><a class="dropdown-item" href="./clientes-alta.php">Añadir</a></li>
                 <li><a class="dropdown-item" href="./cliente-baja.php">Eliminar o Modificar</a></li>
-                <li><a class="dropdown-item" href="">Buscar</a></li>
+                <li><a class="dropdown-item" href="./clientes-consulta.php">Buscar</a></li>
               </ul> 
             </div>
             <div class="dropdown">
