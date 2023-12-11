@@ -28,13 +28,13 @@
 		}
 
 
-        public function mostrarAuto(){
+        public function mostrarCliente(){
 			$sql = "SELECT * FROM clientes" ;
 			$res = mysqli_query($this->conexion->getConexion(), $sql);
 			return $res;
 		}
 
-        public function mostrarAutoId($id){
+        public function mostrarClienteId($id){
 			$sql = "SELECT * FROM clientes WHERE id = $id;" ;
 			$res = mysqli_query($this->conexion->getConexion(), $sql);
 			return $res;
@@ -49,7 +49,7 @@
         }
 
         public function update($id,$nombre,$direccion,$ce,$telefono,$fecha){
-            $sql = "UPDATE autos SET nombre = '$nombre', direccion = '$direccion', correo = '$ce', telefono = $telefono, f_nacimiento = '$fecha' WHERE id = $id;";
+            $sql = "UPDATE clientes SET nombre = '$nombre', direccion = '$direccion', correo = '$ce', telefono = $telefono, f_nacimiento = '$fecha' WHERE id = $id;";
             $res = mysqli_query($this->conexion->getConexion(),$sql);
             return $res;
         }

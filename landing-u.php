@@ -34,8 +34,7 @@
               </button>
               <ul class="dropdown-menu bg-ligero">
                 <li><a class="dropdown-item" href="./clientes-alta.php">Añadir</a></li>
-                <li><a class="dropdown-item" href="">Eliminar</a></li>
-                <li><a class="dropdown-item" href="">Cambiar</a></li>
+                <li><a class="dropdown-item" href="./cliente-baja.php">Eliminar o Modificar</a></li>
                 <li><a class="dropdown-item" href="">Buscar</a></li>
               </ul> 
             </div>
@@ -45,8 +44,7 @@
               </button>
               <ul class="dropdown-menu bg-ligero">
                 <li><a class="dropdown-item" href="./vendedores.html">Añadir</a></li>
-                <li><a class="dropdown-item" href="">Eliminar</a></li>
-                <li><a class="dropdown-item" href="">Cambiar</a></li>
+                <li><a class="dropdown-item" href="">Eliminar o Modificar</a></li>
                 <li><a class="dropdown-item" href="">Buscar</a></li>
               </ul> 
             </div>
@@ -57,8 +55,7 @@
               </button>
               <ul class="dropdown-menu bg-ligero">
                 <li><a class="dropdown-item" href="">Añadir</a></li>
-                <li><a class="dropdown-item" href="">Eliminar</a></li>
-                <li><a class="dropdown-item" href="">Cambiar</a></li>
+                <li><a class="dropdown-item" href="">Eliminar o Modificar</a></li>
                 <li><a class="dropdown-item" href="">Buscar</a></li>
               </ul> 
           
