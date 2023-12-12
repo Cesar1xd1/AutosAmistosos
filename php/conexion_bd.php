@@ -1,6 +1,7 @@
 <?php
 
 
+
 class ConexionBDAutosAmistosos{
     private $conexion;
     private $host = "localhost";
@@ -34,5 +35,7 @@ class ConexionBDAutosAmistosos{
     
     
 }
+
+
 
 ?>
